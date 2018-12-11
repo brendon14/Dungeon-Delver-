@@ -17,7 +17,7 @@ public class GuiPanel : MonoBehaviour
         Transform trans = transform.Find("Key Count");                       // a     
         keyCountText = trans.GetComponent<Text>();
         // Health Icons     
-        Transform healthPanel = transform.Find("Health Panel");
+        Transform healthPanel = transform.Find("Health Panel");
         healthImages = new List<Image>();
         if (healthPanel != null) {                                            // b   
             for (int i=0; i<20; i++) {
